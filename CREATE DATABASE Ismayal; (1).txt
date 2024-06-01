@@ -1,0 +1,13 @@
+ CREATE DATABASE Ismayal;
+
+CREATE TABLE department(dep_name VARCHAR(15), dep_id INT(1), dep_staff INT(2), dep_salary INT(6));
+
+INSERT INTO department(dep_name, dep_id, dep_staff, dep_salary) VALUES("MED", 1, 10, 10000),("ER", 2, 7, 30000);
+;
+
+DELETE FROM employee WHERE dep_name = "MED";
+
+SELECT * FROM department;
+
+
+
